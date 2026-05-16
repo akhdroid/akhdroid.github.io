@@ -20,5 +20,5 @@ I haven't really got it yet.
 
 ## Contact
 
-Mail: `contact [at] akhdroid [dot] art`
+Mail --> `contact [at] akhdroid [dot] art`
 
