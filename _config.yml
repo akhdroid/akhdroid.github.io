@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 'Akh<span style="color:#3DDC84;">droid</span>'# the main title
+title: 'Akh<span style="color:#3DDC84;">droid</span>'  # the main title
 
 tagline: Low Level & Mobile Security # it will display as the subtitle
 
