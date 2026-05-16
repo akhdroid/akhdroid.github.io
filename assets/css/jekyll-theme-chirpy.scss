@@ -1,0 +1,54 @@
+---
+---
+
+@import "main";
+
+/* Avatar */
+#avatar img {
+  object-fit: contain;
+  background-color: white;
+}
+
+/* Tout en blanc */
+html[data-mode="dark"] {
+  --text-color: #FFFFFF;
+  --heading-color: #FFFFFF;
+  --link-color: #FFFFFF;
+  --link-underline-color: #FFFFFF;
+  --site-title-color: #FFFFFF;
+  --site-subtitle-color: #FFFFFF;
+  --sidebar-active-color: #FFFFFF;
+  --post-meta-color: #FFFFFF;
+  --blockquote-text-color: #FFFFFF;
+  --tag-bg: transparent;
+  --tag-border: #FFFFFF;
+  --tag-hover: #3DDC84;
+}
+
+/* Force le blanc partout, y compris liens, tags, catégories */
+body,
+p, li, td, th,
+h1, h2, h3, h4, h5, h6,
+a, a:visited,
+.post-tag,
+.post-meta,
+#sidebar,
+#sidebar a,
+.content,
+.categories a,
+.tags a,
+nav a {
+  color: #FFFFFF !important;
+}
+
+/* Hover : on garde un effet vert juste au passage de souris */
+a:hover,
+.post-tag:hover {
+  color: #3DDC84 !important;
+}
+
+/* Tags : bordure blanche au lieu de fond vert */
+.post-tag {
+  background-color: transparent !important;
+  border: 1px solid #FFFFFF !important;
+}
