@@ -10,15 +10,14 @@ tags: [IOS, reverse, anti-jailbreak]
 # Introduction
 
 
-AsalamAleikom la team ! Ça fait longtemps que je n'ai pas publié d'article. En ce moment, j'ai focus mon apprentissage sur iOS, car je me suis aperçu que le code y est beaucoup plus lisible,  les quelques apps que j'ai reverse étaient bien bien obfusquées sur Android.
+AsalamAleikom la team ! Ça fait longtemps que je n'ai pas publié d'article. En ce moment, j'ai focus mon apprentissage sur iOS, car je me suis aperçu que le code y est beaucoup plus lisible,les quelques apps que j'ai reverse étaient bien bien obfusquées sur Android mais plutôt lisible sur IOS. (Mon logo parle pour moi ! On joue pour apple ici mdrrr )
 
 J'espère publier bientôt mon article sur le parsing de Mach-O, inchaAllah. (J'ai un tas d'articles en attente)
 
-J'espère publier mon article sur le parsing de Mach-O bientôt inchaAllah. 
 
-D'ailleurs, je suis aussi tombé amoureux de tout ce qui touche à la protection d'applications — jailbreak detection, RASP, etc. Mes articles vont sûrement tourner autour de ça.
+D'ailleurs, je suis aussi tombé amoureux de tout ce qui touche à la protection d'applications jor jailbreak detection, RASP, etc... Mes articles vont sûrement tourner autour de ça.
 
-Bref… C'est un peu lié à ce que je viens de citer, mais aujourd'hui on part sur un petit challenge anti-jailbreak « No Escape » de Mobile Hacking Lab. 
+Bref… C'est un peu lié à ce que je viens de citer plus haut, mais aujourd'hui on part sur un petit challenge anti-jailbreak « No Escape » de Mobile Hacking Lab. 
 
 Ce qui est cool, c'est que c'est un des rares challs anti-jailbreak qui fonctionne sur mon device (rappel : device sous palera1n en rootless) . 
 
@@ -43,6 +42,7 @@ On ne va quand même pas passer à côté de l'aspect pédagogique et puis autan
 La première fonction est une méthode classique que j'ai vu passé dans un sdk d'une grosse app donc toujours d'actualité qui consiste à chercher des fichiers exclusivement présents sur un appareil jailbreaké pour le détecter.
 
 On réunit les différents chemins testés :
+
 ```txt
 /Applications/Cydia.app
 /Library/MobileSubstrate/MobileSubstrate.dylib
