@@ -30,7 +30,7 @@ C'est parti ! Le chall est assez simple, donc je ne me suis pas pris la tête à
 
 La première chose qui me saute aux yeux, c'est la fonction `isJailBroken()` qui renvoie un booléen.
 
-![Code_no_espace]!(/assets/img/Chall/Code_no_escape.png)
+![Code_no_espace](/assets/img/Chall/Code_no_escape.png)
 
 On voit qu'elle passe par 4 fonctions assez claires. On va les analyser une par une : ça va nous permettre de comprendre les différentes méthodes utilisées pour détecter le jailbreak.
 
